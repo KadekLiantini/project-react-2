@@ -1,0 +1,20 @@
+/* CustomScrollbar.module.css */
+
+.scrollContainer {
+  /* right:  */
+}
+
+.scrollContainer::-webkit-scrollbar {
+  width: 8px;
+}
+
+.scrollContainer::-webkit-scrollbar-track {
+  /* background: grey; */
+  border-radius: 50px;
+  margin: 10px 0 10px 0;
+}
+
+.scrollContainer::-webkit-scrollbar-thumb {
+  background-color: #d6d6d6;
+  border-radius: 50px;
+}

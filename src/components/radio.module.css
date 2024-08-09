@@ -1,0 +1,31 @@
+/* Hilangkan tampilan standar input radio */
+.hiddenRadio {
+  display: none;
+}
+
+/* Tampilan radio button baru */
+.customRadio {
+  width: 20px;
+  height: 20px;
+  border: 2px solid #DC0A2D;
+  border-radius: 50%;
+  position: relative;
+  display: inline-block;
+  margin-right: .5rem
+}
+
+.checkedRadio {
+  border-color: #DC0A2D;
+}
+
+.innerCircle {
+  content: "";
+  width: 10px;
+  height: 10px;
+  background-color: #DC0A2D;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
