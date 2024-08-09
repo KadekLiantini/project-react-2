@@ -4,7 +4,7 @@ import PokemonDetail from "../src/components/PokemonDetail";
 
 const App = () => {
   return (
-    <Router>
+    <Router basename="/project-react-2/">
       <Routes>
         <Route path="/" element={<PokeProject />} />
         <Route path="/pokemon/:id" element={<PokemonDetail />} />
